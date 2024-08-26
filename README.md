@@ -20,21 +20,28 @@ Telegram的Bot非常好用。速度稳定性都不错。
    
 3. 修改密钥
    代码的13行：
-   ```
-       const auths = ['xxxxxxxxxxxxx', 'yyyyyyyyyyyyy']
-   ```
+```
+const auths = ['xxxxxxxxxxxxx', 'yyyyyyyyyyyyy']
+```
    就是简易的访问密钥。自己部署的时候，随意修改下即可。
 
 4. 跑起来
    编辑完成，保存后，Worker就成功启动。
 5. 访问
-   ```
-  curl --request POST \
-  --url https://<Your-domain-url/sendMessage \
-  --header 'Content-Type: application/x-www-form-urlencoded' \
-  --header 'Key: xxxxxxxxxxxxxx' \ # <----你自己修改的密钥
-  --header 'bot_token: <Bot-Token>' \
-  --data 'text=<b> hello , Here </b>' \
-  --data chat_id=-1002114987005 \
-  --data parse_mode=html 
-  ```
+```bash
+curl --request POST \
+--url https://<Your-domain-url/sendMessage \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--header 'Key: xxxxxxxxxxxxxx' \ # <----你自己修改的密钥
+--header 'bot_token: <Bot-Token>' \
+--data 'text=<b> hello , Here </b>' \
+--data chat_id=-1002114987005 \
+--data parse_mode=html 
+```
+
+# 关于
+- 本产品基于Apache协议开源。
+- 作者 米哈( [@MrMiHa](https://t.me/MrMiHa) )是一个苦逼程序员，不是煤场奴工，有问题别太理直气壮的跑来下命令。
+- 讨论群组是 : https://t.me/DeveloperTeamGroup 欢迎加入后玩耍。实在搞不懂部署的，也可以群里问问。随缘解答。
+- 随意Fork，记得保留`关于`的内容。
+
