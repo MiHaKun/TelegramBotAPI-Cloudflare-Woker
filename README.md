@@ -17,6 +17,8 @@ Telegram的Bot非常好用。速度稳定性都不错。
    ![image](https://github.com/user-attachments/assets/84cec0ca-2f5d-4140-b189-51eaaeeff1ce)
 
   将仓库内的`woker.js`放入代码编辑区。
+
+  **记得点击部署哈**
    
 3. 修改密钥
    代码的13行：
