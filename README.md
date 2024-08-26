@@ -1,0 +1,2 @@
+# TelegramBotAPI-Cloudflare-Woker
+一个白嫖赛博菩萨Cloudflare Worker的TelegramBotAPI中继网关。可以越过奇怪的防火墙，在嵌入式设备上轻松使用。
